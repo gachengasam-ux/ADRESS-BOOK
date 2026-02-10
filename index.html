@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Places you've visited</h1>
+        
+        <form class="add-place-form" id="placeForm">
+            <div class="form-row">
+                <input type="text" id="location" placeholder="Location" required>
+                <input type="text" id="landmark" placeholder="Landmark" required>
+            </div>
+            <div class="form-row">
+                <select id="season" required>
+                    <option value="">When did you visit?</option>
+                    <option value="spring">Spring</option>
+                    <option value="summer">Summer</option>
+                    <option value="autumn">Autumn</option>
+                    <option value="winter">Winter</option>
+                </select>
+                <input type="number" id="rating" class="rating-input" min="0" max="5" placeholder="1-5">
+            </div>
+            <textarea id="notes" placeholder="Notes about your visit"></textarea>
+            <button type="submit">Add Place</button>
+            <button type="button" id="clearAll" class="clear-btn">Clear All</button>
+        </form>
+        
+        <div class="stats-grid" id="statsGrid"></div>
+        <div class="places-list" id="placesList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
