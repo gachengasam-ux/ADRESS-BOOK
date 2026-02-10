@@ -88,7 +88,7 @@ input , select ,textarea{
 }
 .btn-delete:hover{
     background-color: #ffffff;
-    padding: 0%;
+    text-align: none;
 }
 .empty-state{
     text-align: center;
