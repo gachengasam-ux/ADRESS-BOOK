@@ -73,6 +73,7 @@ input , select ,textarea{
     justify-content: flex-end;
     padding-top: 15px;
     border-top: 1px solid #ddd;
+    gap: 0;
 }
 .btn{
     padding: 10px 20px;
@@ -88,7 +89,7 @@ input , select ,textarea{
 }
 .btn-delete:hover{
     background-color: #ffffff;
-    display: none;
+    
 }
 .empty-state{
     text-align: center;
