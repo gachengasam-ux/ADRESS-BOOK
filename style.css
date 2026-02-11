@@ -73,7 +73,7 @@ input , select ,textarea{
     justify-content: flex-end;
     padding-top: 15px;
     border-top: 1px solid #ddd;
-    padding-bottom: 0;
+    
 }
 .btn{
     padding: 10px 20px;
